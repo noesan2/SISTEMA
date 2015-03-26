@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AdoptantesAD
+</name>
+</assembly>
+<members>
+<member name="M:Adoptantes_AD.DatosProducto.CrearProducto(Adoptante_MD.Producto)">
+	<summary>
+ Crea un producto nuevo.
+ </summary>
+	<param name="productoToSave">Producto a crear.</param>
+	<remarks></remarks>
+</member><member name="M:Adoptantes_AD.DatosProducto.BorrarProducto(Adoptante_MD.Producto)">
+	<summary>
+ Borra un producto por Id.
+ </summary>
+	<param name="productoToDelete">Producto a borrar.</param>
+	<remarks></remarks>
+</member><member name="M:Adoptantes_AD.DatosProducto.ObtenerProductos(System.String)">
+	<summary>
+ Retorna los productos filtrado por nombre
+ </summary>
+	<param name="nombre">nombre de producto buscado.</param>
+	<returns>List de Productos.</returns>
+	<remarks></remarks>
+</member><member name="M:Adoptantes_AD.DatosProducto.SePuedeBorrar(Adoptante_MD.Producto)">
+	<summary>
+ Retorna si es posible borrar un Producto en base a si tiene
+ o no Consumos o compras relacionadas.
+ </summary>
+	<param name="productoToCheck">Producto a chekear.</param>
+	<returns>Boolean</returns>
+	<remarks></remarks>
+</member><member name="M:Adoptantes_AD.DatosProducto.MapProperties(System.Data.DataRow,Adoptante_MD.Producto@)">
+	<summary>
+	</summary>
+	<param name="row"></param>
+	<param name="producto"></param>
+	<remarks></remarks>
+</member><member name="P:Adoptantes_AD.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Adoptantes_AD.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.BorrarProducto">
+	<summary>
+  Looks up a localized string similar to [dbo].[BorrarProducto].
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.CrearProducto">
+	<summary>
+  Looks up a localized string similar to [dbo].[CrearProducto].
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.ObtenerProducto">
+	<summary>
+  Looks up a localized string similar to [dbo].[ObtenerProducto].
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.SePuedeBorrarProducto">
+	<summary>
+  Looks up a localized string similar to [dbo].[SePuedeBorrarProducto].
+</summary>
+</member><member name="P:Adoptantes_AD.My.Resources.StoredProcedures.TestResource">
+	<summary>
+  Looks up a localized string similar to [dbo].[GuardarProducto].
+</summary>
+</member><member name="T:Adoptantes_AD.My.Resources.StoredProcedures">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

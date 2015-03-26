@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AdoptantesRN
+</name>
+</assembly>
+<members>
+<member name="M:Adoptantes_RN.ReglasProducto.CrearProducto(Adoptante_MD.Producto@)">
+	<summary>
+ Crea un nuevo producto.
+ </summary>
+	<param name="newProducto">Producto a ser creado</param>
+	<remarks></remarks>
+</member><member name="P:Adoptantes_RN.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Adoptantes_RN.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Adoptantes_RN.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
